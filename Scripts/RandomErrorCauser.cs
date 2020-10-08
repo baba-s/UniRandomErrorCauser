@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Kogane
 {
 	/// <summary>
-	/// 定期的にわざとエラーを発生されるコンポーネント
+	/// 一定時間ごとにわざとエラーを発生させるコンポーネント
 	/// </summary>
 	[DisallowMultipleComponent]
 	public sealed class RandomErrorCauser : MonoBehaviour
